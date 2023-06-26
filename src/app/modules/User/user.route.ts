@@ -9,5 +9,15 @@ router.post(
   ValidateRequest(UserZodSchema.createEmployeeUserZod),
   userController.createEmployee
 );
+router.post(
+  '/create-manager',
+  ValidateRequest(UserZodSchema.createManagerUserZod),
+  userController.createManager
+);
+router.post(
+  '/create-admin',
+  ValidateRequest(UserZodSchema.createAdminUserZod),
+  userController.createAdmin
+);
 
 export const userRoutes = router;

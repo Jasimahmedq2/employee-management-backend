@@ -16,6 +16,34 @@ const createEmployee = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const createManager = catchAsync(async (req: Request, res: Response) => {
+  const { manager, ...userData } = req.body;
+
+  const result = await userService.createManager(manager, userData);
+
+  sendResponse(res, {
+    statusCode: 200,
+    success: true,
+    message: 'successfully create a manager user',
+    data: result,
+  });
+});
+
+const createAdmin = catchAsync(async (req: Request, res: Response) => {
+  const { admin, ...userData } = req.body;
+
+  const result = await userService.createAdmin(admin, userData);
+
+  sendResponse(res, {
+    statusCode: 200,
+    success: true,
+    message: 'successfully create an admin user',
+    data: result,
+  });
+});
+
 export const userController = {
   createEmployee,
+  createManager,
+  createAdmin,
 };

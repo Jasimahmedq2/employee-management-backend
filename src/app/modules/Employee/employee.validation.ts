@@ -14,6 +14,11 @@ const createEmployeeZodSchema = z.object({
     phoneNumber: z.number({
       required_error: 'number is required',
     }),
+    email: z
+      .string({
+        required_error: 'email is required',
+      })
+      .email(),
     name: z.object(
       {
         firstName: z.string({ required_error: 'firsName is required' }),

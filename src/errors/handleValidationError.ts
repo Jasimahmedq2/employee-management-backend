@@ -17,7 +17,7 @@ const handleValidationError = (
   return {
     statusCode,
     message: 'Validation Error',
-    errorMessages: errors,
+    errorMessage: errors,
   };
 };
 
