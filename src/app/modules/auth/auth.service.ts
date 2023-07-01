@@ -3,7 +3,12 @@ import config from '../../../config';
 import ApiError from '../../../errors/apiError';
 import { JwtHelpers } from '../../../shared/jwtHelpers';
 import User from '../User/user.model';
-import { ILoginData, ILoginResponse, IRefreshResponse } from './auth.interface';
+import {
+  ILoginData,
+  ILoginResponse,
+  IPasswordUpdate,
+  IRefreshResponse,
+} from './auth.interface';
 
 const loginUser = async (payload: ILoginData): Promise<ILoginResponse> => {
   const { id, password } = payload;
@@ -73,7 +78,28 @@ const refreshToken = async (
   };
 };
 
+const updatePassword = async (id: string, payload: IPasswordUpdate) => {
+  const { oldPassword, newPassword } = payload;
+  const user = await User.findOne({ id }).select('+password');
+  if (!user) {
+    throw new ApiError(404, "user doesn't exist");
+  }
+  const isPasswordMatched = await User.isPasswordMatched(
+    oldPassword,
+    user.password
+  );
+
+  if (!isPasswordMatched) {
+    throw new ApiError(401, "password doesn't doesn't matched");
+  }
+
+  user.password = newPassword;
+
+  user.save();
+};
+
 export const AuthServices = {
   loginUser,
   refreshToken,
+  updatePassword,
 };

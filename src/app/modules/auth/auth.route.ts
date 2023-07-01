@@ -14,5 +14,10 @@ router.post(
   ValidateRequest(AuthZodSchema.refreshTokenZodSchema),
   AuthControllers.refreshToken
 );
+router.post(
+  '/update-password/:id',
+  ValidateRequest(AuthZodSchema.updatePasswordZodSchema),
+  AuthControllers.updatePassword
+);
 
 export const AuthRoutes = router;
