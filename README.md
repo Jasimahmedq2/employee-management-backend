@@ -27,8 +27,13 @@
 - Route: https://employee-management-backend-lilac.vercel.app/admins/get-admins (Get-all admins)
 - Route: https://employee-management-backend-lilac.vercel.app/admins/get-admin/64990251ad07242b61521be6 (Get-single admin)
 - Route: https://employee-management-backend-lilac.vercel.app/admins/update-admin/64990251ad07242b61521be6 (Patch update-single admin)
-- Route: https://employee-management-backend-lilac.vercel.app/admins/delete-admin/64990251ad07242b61521be6 (delete single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/admins/delete-admin/ADM-00002 (delete single admin)
 
+### Auth Route
+
+- Route: https://employee-management-backend-lilac.vercel.app/auth/login (Post-login user  (id and password))
+- Route: https://employee-management-backend-lilac.vercel.app/auth/refresh-token (Post- generate new accessToken by refresh token)
+- Route: https://employee-management-backend-lilac.vercel.app/auth/update-password/AMPl-00001 (Post-update password)
 
 
 
