@@ -15,12 +15,20 @@
 - Route: https://employee-management-backend-lilac.vercel.app/employees/update-employee/6496fadd3db01cbe4e8306a0 (patch update-single employee)
 - Route: https://employee-management-backend-lilac.vercel.app/employees/delete-employee/AMPl-00001 (delete-single employee)
 
-  ### Manager Route
+### Manager Route
 
-  - Route: https://employee-management-backend-lilac.vercel.app/managers/get-managers (Get-all managers)
-  - Route: https://employee-management-backend-lilac.vercel.app/managers/get-manager/6498196e169f337be5a62cc6 (Get-single manager)
-  - Route: https://employee-management-backend-lilac.vercel.app/managers/update-manager/6498196e169f337be5a62cc6 (Patch update-single manager)
-  - Route: https://employee-management-backend-lilac.vercel.app/managers/delete-manager/MGR-00001 (delete manager)
+- Route: https://employee-management-backend-lilac.vercel.app/managers/get-managers (Get-all managers)
+- Route: https://employee-management-backend-lilac.vercel.app/managers/get-manager/6498196e169f337be5a62cc6 (Get-single manager)
+- Route: https://employee-management-backend-lilac.vercel.app/managers/update-manager/6498196e169f337be5a62cc6 (Patch update-single manager)
+- Route: https://employee-management-backend-lilac.vercel.app/managers/delete-manager/MGR-00001 (delete manager)
+
+### Admin Route
+
+- Route: https://employee-management-backend-lilac.vercel.app/admins/get-admins (Get-all admins)
+- Route: https://employee-management-backend-lilac.vercel.app/admins/get-admin/64990251ad07242b61521be6 (Get-single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/admins/update-admin/64990251ad07242b61521be6 (Patch update-single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/admins/delete-admin/64990251ad07242b61521be6 (delete single admin)
+
 
 
 
