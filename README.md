@@ -35,6 +35,10 @@
 - Route: https://employee-management-backend-lilac.vercel.app/auth/refresh-token (Post- generate new accessToken by refresh token)
 - Route: https://employee-management-backend-lilac.vercel.app/auth/update-password/AMPl-00001 (Post-update password)
 
+### Profile
+- Route: https://employee-management-backend-lilac.vercel.app/profile/employee-profile (Get-Employee profile)
+- Route: https://employee-management-backend-lilac.vercel.app/profile/manager-profile (Get-manager profile)
+- Route: https://employee-management-backend-lilac.vercel.app/profile/admin-profile (Get-admin profile)
 
 
 #### The employee management project backend repository is a robust and efficient solution designed to streamline the process of managing employees within an organization. Developed using community-standard technologies such as TypeScript, Express.js, MongoDB, and Mongoose, this project offers a solid foundation for effective employee administration.
