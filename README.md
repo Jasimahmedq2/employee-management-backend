@@ -4,41 +4,41 @@
 
 ### Users Route
 
-- Route: https://employee-management-backend-lilac.vercel.app/users/create-employee (Post-create Employee)
-- Route: https://employee-management-backend-lilac.vercel.app/users/create-manager (Post-create manager)
-- Route: https://employee-management-backend-lilac.vercel.app/users/create-admin (Post-create admin)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/users/create-employee (Post-create Employee)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/users/create-manager (Post-create manager)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/users/create-admin (Post-create admin)
 
 ### Employees Route
 
-- Route: https://employee-management-backend-lilac.vercel.app/employees/get-employees (Get-all employees)
-- Route: https://employee-management-backend-lilac.vercel.app/employees/get-employee/6496fadd3db01cbe4e8306a0 (Get-single employee)
-- Route: https://employee-management-backend-lilac.vercel.app/employees/update-employee/6496fadd3db01cbe4e8306a0 (patch update-single employee)
-- Route: https://employee-management-backend-lilac.vercel.app/employees/delete-employee/AMPl-00001 (delete-single employee)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/employees/get-employees (Get-all employees)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/employees/get-employee/6496fadd3db01cbe4e8306a0 (Get-single employee)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/employees/update-employee/6496fadd3db01cbe4e8306a0 (patch update-single employee)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/employees/delete-employee/AMPl-00001 (delete-single employee)
 
 ### Manager Route
 
-- Route: https://employee-management-backend-lilac.vercel.app/managers/get-managers (Get-all managers)
-- Route: https://employee-management-backend-lilac.vercel.app/managers/get-manager/6498196e169f337be5a62cc6 (Get-single manager)
-- Route: https://employee-management-backend-lilac.vercel.app/managers/update-manager/6498196e169f337be5a62cc6 (Patch update-single manager)
-- Route: https://employee-management-backend-lilac.vercel.app/managers/delete-manager/MGR-00001 (delete manager)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/managers/get-managers (Get-all managers)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/managers/get-manager/6498196e169f337be5a62cc6 (Get-single manager)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/managers/update-manager/6498196e169f337be5a62cc6 (Patch update-single manager)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/managers/delete-manager/MGR-00001 (delete manager)
 
 ### Admin Route
 
-- Route: https://employee-management-backend-lilac.vercel.app/admins/get-admins (Get-all admins)
-- Route: https://employee-management-backend-lilac.vercel.app/admins/get-admin/64990251ad07242b61521be6 (Get-single admin)
-- Route: https://employee-management-backend-lilac.vercel.app/admins/update-admin/64990251ad07242b61521be6 (Patch update-single admin)
-- Route: https://employee-management-backend-lilac.vercel.app/admins/delete-admin/ADM-00002 (delete single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/admins/get-admins (Get-all admins)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/admins/get-admin/64990251ad07242b61521be6 (Get-single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/admins/update-admin/64990251ad07242b61521be6 (Patch update-single admin)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/admins/delete-admin/ADM-00002 (delete single admin)
 
 ### Auth Route
 
-- Route: https://employee-management-backend-lilac.vercel.app/auth/login (Post-login user  (id and password))
-- Route: https://employee-management-backend-lilac.vercel.app/auth/refresh-token (Post- generate new accessToken by refresh token)
-- Route: https://employee-management-backend-lilac.vercel.app/auth/update-password/AMPl-00001 (Post-update password)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/auth/login (Post-login user  (id and password))
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/auth/refresh-token (Post- generate new accessToken by refresh token)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/auth/update-password/AMPl-00001 (Post-update password)
 
 ### Profile
-- Route: https://employee-management-backend-lilac.vercel.app/profile/employee-profile (Get-Employee profile)
-- Route: https://employee-management-backend-lilac.vercel.app/profile/manager-profile (Get-manager profile)
-- Route: https://employee-management-backend-lilac.vercel.app/profile/admin-profile (Get-admin profile)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/profile/employee-profile (Get-Employee profile)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/profile/manager-profile (Get-manager profile)
+- Route: https://employee-management-backend-lilac.vercel.app/api/v1/profile/admin-profile (Get-admin profile)
 
 
 #### The employee management project backend repository is a robust and efficient solution designed to streamline the process of managing employees within an organization. Developed using community-standard technologies such as TypeScript, Express.js, MongoDB, and Mongoose, this project offers a solid foundation for effective employee administration.
