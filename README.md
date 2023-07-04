@@ -12,8 +12,16 @@
 
 - Route: https://employee-management-backend-lilac.vercel.app/employees/get-employees (Get-all employees)
 - Route: https://employee-management-backend-lilac.vercel.app/employees/get-employee/6496fadd3db01cbe4e8306a0 (Get-single employee)
-- Route: https://employee-management-backend-lilac.vercel.app/employees/update-employee/6496fadd3db01cbe4e8306a0 (update-single employee)
+- Route: https://employee-management-backend-lilac.vercel.app/employees/update-employee/6496fadd3db01cbe4e8306a0 (patch update-single employee)
 - Route: https://employee-management-backend-lilac.vercel.app/employees/delete-employee/AMPl-00001 (delete-single employee)
+
+  ### Manager Route
+
+  - Route: https://employee-management-backend-lilac.vercel.app/managers/get-managers (Get-all managers)
+  - Route: https://employee-management-backend-lilac.vercel.app/managers/get-manager/6498196e169f337be5a62cc6 (Get-single manager)
+  - Route: https://employee-management-backend-lilac.vercel.app/managers/update-manager/6498196e169f337be5a62cc6 (Patch update-single manager)
+  - Route: https://employee-management-backend-lilac.vercel.app/managers/delete-manager/MGR-00001 (delete manager)
+
 
 
 #### The employee management project backend repository is a robust and efficient solution designed to streamline the process of managing employees within an organization. Developed using community-standard technologies such as TypeScript, Express.js, MongoDB, and Mongoose, this project offers a solid foundation for effective employee administration.
